@@ -1,0 +1,228 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Barlow Semi Condensed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden !important;
+}
+.parent-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 4px;
+}
+.first-child {
+  width: 75%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: hsl(263, 55%, 52%);
+  width: 650px;
+  height: 230px;
+  padding: 20px 20px;
+}
+.right-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -3%;
+}
+.background-image {
+  width: 100%;
+}
+.upper-first-child {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 18px;
+}
+.left {
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: hsl(217, 19%, 35%);
+  width: 270px;
+  height: 230px;
+  padding: 20px 20px;
+}
+.second-right {
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  height: 230px;
+  padding: 20px 20px;
+}
+.second-left {
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: hsl(219, 29%, 14%);
+  width: 650px;
+  height: 230px;
+  padding: 20px 20px;
+}
+.lower-first-child {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+.second-child {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.only-child {
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+  width: 200px;
+  height: 520px;
+  padding: 20px 20px;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.first-user {
+  width: 20%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.second-user {
+  width: 14%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.third-user {
+  width: 8%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.last-user {
+  width: 14%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.identity-text {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  line-height: 4px;
+}
+.others-profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.company {
+  margin-top: -6%;
+  margin-left: 2%;
+}
+.emt {
+  margin-left: 2%;
+}
+@media (max-width: 768px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Barlow Semi Condensed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    overflow: hidden !important;
+  }
+  .parent-div {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .upper-first-child {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 18px;
+  }
+  .lower-first-child {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 18px;
+  }
+  .right {
+    border: 1px solid #000;
+    border-radius: 12px;
+    background-color: hsl(263, 55%, 52%);
+    width: 270px;
+    height: 450px;
+    padding: 10px 5px 10px 5px;
+  }
+  .left {
+    margin-top: 4%;
+    padding: 10px 5px 10px 5px;
+  }
+  .second-right {
+    border: 1px solid #000;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    height: 230px;
+    padding: 10px 5px 10px 5px;
+  }
+  .second-left {
+    border: 1px solid #000;
+    border-radius: 12px;
+    background-color: hsl(219, 29%, 14%);
+    width: 270px;
+    height: 400px;
+    margin-top: 4%;
+    padding: 10px 5px 10px 5px;
+  }
+  .only-child {
+    border: 1px solid #000;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    height: 420px;
+    padding: 10px 5px 10px 5px;
+  }
+  .second-child {
+    width: 25%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+}
